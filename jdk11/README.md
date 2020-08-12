@@ -37,7 +37,7 @@ jobs:
 
     # Runs a set of commands using the runners shell
     - name: Run maven script
-      uses: xlui/action-maven-cli/jdk11@master
+      uses: guillonapa/action-maven-cli/jdk11@master
       id: test
       with:
         lifecycle: 'clean package test'
@@ -46,19 +46,19 @@ jobs:
 Under the last `jobs.build.steps.name` you can set the value of `uses` to this action.
 
 ```yml
-uses: xlui/action-maven-cli/jdk11@master
+uses: guillonapa/action-maven-cli/jdk11@master
 ```
 
 or
 
 ```yml
-uses: xlui/action-maven-cli/jdk8@master
+uses: guillonapa/action-maven-cli/jdk8@master
 ```
 
 As JDK 11 is the latest LTS JDK, there is a convenient way to use it:
 
 ```yml
-uses: xlui/action-maven-cli@master
+uses: guillonapa/action-maven-cli@master
 ```
 
 ## License
