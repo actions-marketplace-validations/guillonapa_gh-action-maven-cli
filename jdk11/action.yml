@@ -1,5 +1,7 @@
 name: 'Maven CLI for the GitHub Actions'
 description: 'Use Maven CLI with JDK 11'
+icon: package
+color: green
 inputs:
     lifecycle:
         description: 'Maven lifecycles'
