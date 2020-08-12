@@ -40,7 +40,7 @@ jobs:
       uses: guillonapa/action-maven-cli/jdk11@master
       id: test
       with:
-        lifecycle: 'clean package test'
+        args: 'clean package test'
 ```
 
 Under the last `jobs.build.steps.name` you can set the value of `uses` to this action.
