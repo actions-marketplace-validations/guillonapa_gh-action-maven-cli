@@ -1,4 +1,4 @@
-name: 'Maven CLI for the GitHub Actions'
+name: 'Maven CLI for GitHub Actions with JDK 8, 11, and 13'
 description: 'Use Maven CLI with JDK 11 (default)'
 branding:
     icon: package
